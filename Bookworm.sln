@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookworm.API", "Bookworm.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookworm.Contracts", "Bookworm.Contracts\Bookworm.Contracts.csproj", "{638F7F4D-1EEB-479F-BF46-4E6C8643E807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookworm.Application", "Bookworm.Application\Bookworm.Application.csproj", "{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{638F7F4D-1EEB-479F-BF46-4E6C8643E807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{638F7F4D-1EEB-479F-BF46-4E6C8643E807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{638F7F4D-1EEB-479F-BF46-4E6C8643E807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
