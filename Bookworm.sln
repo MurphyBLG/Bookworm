@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookworm.Contracts", "Bookw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookworm.Application", "Bookworm.Application\Bookworm.Application.csproj", "{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookworm.Infrastructure", "Bookworm.Infrastructure\Bookworm.Infrastructure.csproj", "{3DA915E9-C585-4601-B2AD-21DA0CF7DF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC5ECAB-0428-4142-A0B1-AD1F09489A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA915E9-C585-4601-B2AD-21DA0CF7DF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA915E9-C585-4601-B2AD-21DA0CF7DF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA915E9-C585-4601-B2AD-21DA0CF7DF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA915E9-C585-4601-B2AD-21DA0CF7DF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
