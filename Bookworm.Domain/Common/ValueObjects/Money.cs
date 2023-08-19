@@ -1,7 +1,7 @@
 ﻿using Bookworm.Domain.Common.Enums;
 using Bookworm.Domain.Primitives;
 
-namespace Bookworm.Domain.Common;
+namespace Bookworm.Domain.Common.ValueObjects;
 
 public class Money : ValueObject
 {
