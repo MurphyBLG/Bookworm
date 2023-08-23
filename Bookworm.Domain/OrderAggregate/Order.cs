@@ -27,7 +27,13 @@ public class Order : Entity<OrderId>
             item.AddItem();
     }
 
-    public Order(OrderId id) : base(id)
+    private Order(OrderId id, CustomerId customerId, Money price) : base(id)
     {
+        Id = id;
+        CustomerId = customerId;
+        Price = price;
     }
+
+    public static Order Create(CustomerId customerId, Money price)
+        => new(new OrderId(Guid.NewGuid()), customerId, price);
 }
