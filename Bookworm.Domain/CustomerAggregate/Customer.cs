@@ -8,7 +8,13 @@ public class Customer : Entity<CustomerId>
     public string Name { get; private set; } = null!;
     public string Email { get; private set; } = null!;
 
-    public Customer(CustomerId id) : base(id)
+    private Customer(CustomerId id, string name, string email) : base(id)
     {
+        Id = id;
+        Name = name;
+        Email = email;
     }
+
+    public static Customer Create(string name, string email)
+        => new(new CustomerId(Guid.NewGuid()), name, email);
 }
