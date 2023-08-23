@@ -10,6 +10,7 @@ public class Customer : Entity<CustomerId>
 
     private Customer(CustomerId id, string name, string email) : base(id)
     {
+        Id = id;
         Name = name;
         Email = email;
     }
