@@ -13,6 +13,8 @@ public class Order : Entity<OrderId>
     public CustomerId CustomerId { get; private set; }
     public Money Price { get; private set; }
 
+    public IReadOnlyList<OrderItem> OrderItems => _orderItems.ToList();
+
     public void AddProductToOrder(Product product)
     {
         var productInOrder = _orderItems.FirstOrDefault(o => o.ProductId == product.Id);
